@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19C524224170737003EFBDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C524124170737003EFBDA /* AppDelegate.swift */; };
+		B19C524424170737003EFBDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C524324170737003EFBDA /* SceneDelegate.swift */; };
+		B19C524624170737003EFBDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C524524170737003EFBDA /* ViewController.swift */; };
+		B19C524924170737003EFBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C524724170737003EFBDA /* Main.storyboard */; };
+		B19C524B24170739003EFBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19C524A24170739003EFBDA /* Assets.xcassets */; };
+		B19C524E24170739003EFBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19C524C24170739003EFBDA /* LaunchScreen.storyboard */; };
+		B19C525924170739003EFBDA /* TraveldooBitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C525824170739003EFBDA /* TraveldooBitriseTests.swift */; };
+		B19C526424170739003EFBDA /* TraveldooBitriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C526324170739003EFBDA /* TraveldooBitriseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19C525524170739003EFBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19C523624170737003EFBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19C523D24170737003EFBDA;
+			remoteInfo = TraveldooBitrise;
+		};
+		B19C526024170739003EFBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19C523624170737003EFBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19C523D24170737003EFBDA;
+			remoteInfo = TraveldooBitrise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B19C523E24170737003EFBDA /* TraveldooBitrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraveldooBitrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19C524124170737003EFBDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19C524324170737003EFBDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B19C524524170737003EFBDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19C524824170737003EFBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19C524A24170739003EFBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19C524D24170739003EFBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19C524F24170739003EFBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19C525424170739003EFBDA /* TraveldooBitriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraveldooBitriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19C525824170739003EFBDA /* TraveldooBitriseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraveldooBitriseTests.swift; sourceTree = "<group>"; };
+		B19C525A24170739003EFBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19C525F24170739003EFBDA /* TraveldooBitriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraveldooBitriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19C526324170739003EFBDA /* TraveldooBitriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraveldooBitriseUITests.swift; sourceTree = "<group>"; };
+		B19C526524170739003EFBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19C523B24170737003EFBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525124170739003EFBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525C24170739003EFBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19C523524170737003EFBDA = {
+			isa = PBXGroup;
+			children = (
+				B19C524024170737003EFBDA /* TraveldooBitrise */,
+				B19C525724170739003EFBDA /* TraveldooBitriseTests */,
+				B19C526224170739003EFBDA /* TraveldooBitriseUITests */,
+				B19C523F24170737003EFBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19C523F24170737003EFBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19C523E24170737003EFBDA /* TraveldooBitrise.app */,
+				B19C525424170739003EFBDA /* TraveldooBitriseTests.xctest */,
+				B19C525F24170739003EFBDA /* TraveldooBitriseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19C524024170737003EFBDA /* TraveldooBitrise */ = {
+			isa = PBXGroup;
+			children = (
+				B19C524124170737003EFBDA /* AppDelegate.swift */,
+				B19C524324170737003EFBDA /* SceneDelegate.swift */,
+				B19C524524170737003EFBDA /* ViewController.swift */,
+				B19C524724170737003EFBDA /* Main.storyboard */,
+				B19C524A24170739003EFBDA /* Assets.xcassets */,
+				B19C524C24170739003EFBDA /* LaunchScreen.storyboard */,
+				B19C524F24170739003EFBDA /* Info.plist */,
+			);
+			path = TraveldooBitrise;
+			sourceTree = "<group>";
+		};
+		B19C525724170739003EFBDA /* TraveldooBitriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19C525824170739003EFBDA /* TraveldooBitriseTests.swift */,
+				B19C525A24170739003EFBDA /* Info.plist */,
+			);
+			path = TraveldooBitriseTests;
+			sourceTree = "<group>";
+		};
+		B19C526224170739003EFBDA /* TraveldooBitriseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B19C526324170739003EFBDA /* TraveldooBitriseUITests.swift */,
+				B19C526524170739003EFBDA /* Info.plist */,
+			);
+			path = TraveldooBitriseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19C523D24170737003EFBDA /* TraveldooBitrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19C526824170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitrise" */;
+			buildPhases = (
+				B19C523A24170737003EFBDA /* Sources */,
+				B19C523B24170737003EFBDA /* Frameworks */,
+				B19C523C24170737003EFBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraveldooBitrise;
+			productName = TraveldooBitrise;
+			productReference = B19C523E24170737003EFBDA /* TraveldooBitrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19C525324170739003EFBDA /* TraveldooBitriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19C526B24170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitriseTests" */;
+			buildPhases = (
+				B19C525024170739003EFBDA /* Sources */,
+				B19C525124170739003EFBDA /* Frameworks */,
+				B19C525224170739003EFBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19C525624170739003EFBDA /* PBXTargetDependency */,
+			);
+			name = TraveldooBitriseTests;
+			productName = TraveldooBitriseTests;
+			productReference = B19C525424170739003EFBDA /* TraveldooBitriseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B19C525E24170739003EFBDA /* TraveldooBitriseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19C526E24170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitriseUITests" */;
+			buildPhases = (
+				B19C525B24170739003EFBDA /* Sources */,
+				B19C525C24170739003EFBDA /* Frameworks */,
+				B19C525D24170739003EFBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19C526124170739003EFBDA /* PBXTargetDependency */,
+			);
+			name = TraveldooBitriseUITests;
+			productName = TraveldooBitriseUITests;
+			productReference = B19C525F24170739003EFBDA /* TraveldooBitriseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19C523624170737003EFBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Traveldoo;
+				TargetAttributes = {
+					B19C523D24170737003EFBDA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B19C525324170739003EFBDA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B19C523D24170737003EFBDA;
+					};
+					B19C525E24170739003EFBDA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B19C523D24170737003EFBDA;
+					};
+				};
+			};
+			buildConfigurationList = B19C523924170737003EFBDA /* Build configuration list for PBXProject "TraveldooBitrise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19C523524170737003EFBDA;
+			productRefGroup = B19C523F24170737003EFBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19C523D24170737003EFBDA /* TraveldooBitrise */,
+				B19C525324170739003EFBDA /* TraveldooBitriseTests */,
+				B19C525E24170739003EFBDA /* TraveldooBitriseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19C523C24170737003EFBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19C524E24170739003EFBDA /* LaunchScreen.storyboard in Resources */,
+				B19C524B24170739003EFBDA /* Assets.xcassets in Resources */,
+				B19C524924170737003EFBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525224170739003EFBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525D24170739003EFBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19C523A24170737003EFBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19C524624170737003EFBDA /* ViewController.swift in Sources */,
+				B19C524224170737003EFBDA /* AppDelegate.swift in Sources */,
+				B19C524424170737003EFBDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525024170739003EFBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19C525924170739003EFBDA /* TraveldooBitriseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C525B24170739003EFBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19C526424170739003EFBDA /* TraveldooBitriseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19C525624170739003EFBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19C523D24170737003EFBDA /* TraveldooBitrise */;
+			targetProxy = B19C525524170739003EFBDA /* PBXContainerItemProxy */;
+		};
+		B19C526124170739003EFBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19C523D24170737003EFBDA /* TraveldooBitrise */;
+			targetProxy = B19C526024170739003EFBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19C524724170737003EFBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19C524824170737003EFBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19C524C24170739003EFBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19C524D24170739003EFBDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19C526624170739003EFBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19C526724170739003EFBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19C526924170739003EFBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitrise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19C526A24170739003EFBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitrise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B19C526C24170739003EFBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitriseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitriseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraveldooBitrise.app/TraveldooBitrise";
+			};
+			name = Debug;
+		};
+		B19C526D24170739003EFBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitriseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitriseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraveldooBitrise.app/TraveldooBitrise";
+			};
+			name = Release;
+		};
+		B19C526F24170739003EFBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitriseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitriseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TraveldooBitrise;
+			};
+			name = Debug;
+		};
+		B19C527024170739003EFBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S32H6QGP3;
+				INFOPLIST_FILE = TraveldooBitriseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Traveldoo.TraveldooBitriseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TraveldooBitrise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19C523924170737003EFBDA /* Build configuration list for PBXProject "TraveldooBitrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19C526624170739003EFBDA /* Debug */,
+				B19C526724170739003EFBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19C526824170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19C526924170739003EFBDA /* Debug */,
+				B19C526A24170739003EFBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19C526B24170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19C526C24170739003EFBDA /* Debug */,
+				B19C526D24170739003EFBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19C526E24170739003EFBDA /* Build configuration list for PBXNativeTarget "TraveldooBitriseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19C526F24170739003EFBDA /* Debug */,
+				B19C527024170739003EFBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19C523624170737003EFBDA /* Project object */;
+}
